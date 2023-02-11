@@ -432,11 +432,15 @@ footer a{
 
 
       /* CSS of reference*/
+      .verify{
+        padding-top:5% ;
+      }
       .verify h1{
         font-family: 'Raleway', sans-serif;
         padding-top: 60px;
         text-align: center;
         color:#223763;
+        
       }
      
     .twoside{
