@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-color:rgba(240, 240, 244, 0.896);
+    box-sizing: border-box;
+}
+
+header{
+    position: absolute;
+    width: 100%;
+    padding-top:20px;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    background: transparent;
+    border-bottom:1px solid transparent ;
+    transition: all .45s ease;
+}
+
+.logo{
+    font-weight: 800;
+    padding-left: 50px;
+    font-size:35px;
+    font-family: 'Satisfy', cursive;
+    color:purple; 
+}
+
+.navlist {
+    display:flex;
+    list-style:none;
+    text-decoration: none;
+    padding-left: 20%;
+}
+.navlist a{
+    color: black;
+    font-weight: bold;
+    font-size:25px;
+    font-family: 'Unbounded', cursive;
+    margin:0 25px;
+    transition: all .45 ease;
+    text-decoration: none;
+}
+.navlist a:hover{
+    color:rgb(254, 109, 5);
+}
+.navlist a.active{
+    color:rgb(254, 109, 5);
+}
+ #menu-icon{
+font-size: 40px;
+cursor: pointer;
+z-index: 1001;
+margin-left: 30px;
+display: none;
+} 
+
+footer a{
+        font-family: 'Unbounded', cursive;
+        font-size: 20px;
+        font-weight: 600;
+        margin-left: 80%;
+        color: #171515;
+        text-decoration: none;
+        background-color:#a7e3e7;
+    }
+    
+    footer a:hover{
+        color: rgb(196, 99, 43);
+    }
+
+
+/* -----CSS of home page------ */
+.both{
+    display: flex;
+    padding-bottom: 90px;
+    padding-top: 100px;
+}
+
+.content{
+    font-family: 'Raleway', sans-serif;
+    padding-top: 130px;
+    padding-left:90px;
+    width:50%;  
+}
+
+.content h1{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.content h2{
+    font-size: 38px;
+    padding-bottom: 30px;
+}
+
+.content p{
+    font-size:25px;
+}
+
+.content h2 span{
+    color:purple;
+    font-size: 40px;
+}
+
+.photo{
+    width: 40%;
+    padding-top: 40px;
+   
+}
+
+.photo
+   img{
+        width:85%;
+        height:400px;
+        padding-left: 90px ;
+    }
+
+
+    .about{
+        padding: 100px;
+        display: flex;
+        padding-top: 50px;
+        font-family: 'Raleway', sans-serif; 
+        }
+    
+    .aboutme{
+        width:50%;
+        padding-left: 30px;
+        height: 460px;
+        padding-top: 5%;
+    }
+    
+    .aboutme h1{
+        color: brown;
+    }
+    
+    .aboutme p{
+        padding-top: 20px ;
+        font-size: 18px;
+        font-weight: 500;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        text-align: justify;
+        line-height: 30px;
+    }
+    
+    .interest h2{
+        color: brown;
+        font-size: 28px;
+    }
+    
+    .interest p{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    
+    .photo2{
+        width: 50%;
+        padding-top: 60px;
+    }
+    
+    .photo2 img{
+        width:80%;
+        height:450px;
+        padding-left: 100px ;
+        
+    }
+
+    
+/* CSS of Eduction web page */
+
+.firstrow{
+    padding-top: 100px;
+    height: 15%;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.firstrow h1{
+    font-size: 30px;
+    font-weight: 750;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(38, 169, 80);
+}
+
+.secondrow{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.left{
+    width: 33%;
+    padding-right: 40px;
+}
+
+.right{
+    width: 33%;
+    padding-left: 80px; 
+}
+
+.middle{
+    width: 34%;
+    padding-left: 40px;
+}
+
+    .fig1
+    img{
+        width:40%;
+        height:200px;
+        padding-bottom: 30px;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+    }
+
+    .fig2
+    img{
+        width:40%;
+        height:200px;
+        padding-bottom: 30px;
+        display: block;
+       margin-left: auto;
+       margin-right: auto;
+    }
+
+    .fig3
+    img{
+        width:40%;
+        height:200px;
+        padding-bottom: 30px;
+       display: block;
+    
+       margin-left: auto;
+       margin-right: auto; 
+    }
+
+    .institute{
+        font-size: 25px;
+        font-weight: 700;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .level p{
+        font-size: 28px;
+        text-align: center;
+       padding-bottom:10px;
+    }
+
+    .Location p{
+        padding-bottom: 25px;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .date p{
+        font-size: 25px;
+        font-weight: 500;
+        text-align: center;
+    }
+    
+
+
+    /* CSS of My Skills webpage */
+    .myskills{
+        display: flex;
+        padding-top: 7%;
+    }
+    
+    .skills{
+        font-family: 'Raleway', sans-serif;
+        width: 50%;
+        padding: 0 20px;
+    }
+
+    .skills h1{
+        padding-bottom: 10px;
+        color: rgb(12, 15, 92);
+        padding-top: 25px;
+    }
+
+    .skill-name{
+        font-size: 24px;
+        font-weight: 700;
+        color: rgb(38, 6, 49);
+        text-transform: uppercase;
+        margin: 20px 0 ;
+        padding-bottom: 10px;
+    }
+
+    .skill-bar{
+        height:10px;
+        background-color: rgb(191, 214, 207);
+        border-radius: 3px;
+    }
+
+
+    .skill-per{
+        height:10px ;
+        background: rgb(240, 142, 57);
+        border-radius: 3px;
+        position: relative;
+        animation: fillBars 2.5s ;
+    }
+
+    .skill-per::before{
+        content: attr(per);
+        position: absolute;
+        padding:4px 6px;
+        background: rgb(215, 213, 186);
+        border-radius: 4px;
+        font-size: 13px;
+        top:-35px;
+        right: 0;
+        transform: translateX(50%);
+    }
+ 
+    @keyframes fillBars{
+        from{
+            width:0;
+        }
+        to{
+            width:100%;
+        }
+    }
+
+    .Softskills{
+        font-family: 'Raleway', sans-serif;
+        width: 40%;
+        padding: 60px 0 0 300px; 
+    }
+
+    .Softskills h1{
+        padding-bottom: 30px;
+        color:rgb(12, 15, 92);
+        text-decoration: underline;
+    }
+    .Softskills li{
+        font-size: 26px;
+        font-weight: 550;
+        padding-bottom: 20px;
+        color:rgb(122, 7, 65);
+    }
+    
+
+      /* CSS of Contact */
+      .contact{
+        font-size: 35px;
+        font-weight: 700;
+        color: rgb(57, 95, 14);
+        padding-left: 10%;
+        padding-top: 150px;
+        font-family: 'Raleway', sans-serif;
+      }
+
+      .connect{
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+     .connect a{
+        height: 100px;
+        width: 100px;
+        border-radius: 50px;
+        background-color:lightgray;
+        text-align: center;
+        margin: 25px;
+        box-shadow: 1px 4px 2px 2px rgb(184, 141, 141) ;
+        line-height: 110px;
+      }
+
+      .connect a i{
+        font-size: 40px;
+       transition: all 0.2s linear;
+      }
+
+     .connect a:hover i{
+        transform: scale(1.2);
+      }
+
+      .fa-facebook{
+        color: #3b5998;
+      }
+
+      .fa-instagram{
+        color: #E1306C;
+      }
+
+      .fa-linkedin{
+        color: #0e76a8
+      }
+
+      .fa-github{
+        color:#171515;
+      }
+
+      .fa-wordpress{
+        color:#21759b;
+      }
+
+      .fa-codepen{
+        color:black
+      }
+
+      .message{
+        padding-top: 50px;
+        padding-left: 10%;
+        padding-bottom: 150px;
+      }
+
+      .msg{
+        font-size: 32px;
+        font-family: 'Raleway', sans-serif;
+      }
+      
+      .mail{
+        font-family: 'Raleway', sans-serif;
+        text-decoration: none;
+        font-size: 30px;
+        color: purple;
+        padding-left: 30px;
+      }
+
+
+      /* CSS of reference*/
+      .verify h1{
+        font-family: 'Raleway', sans-serif;
+        padding-top: 60px;
+        text-align: center;
+        color:#223763;
+      }
+     
+    .twoside{
+     display:flex;
+    }
+
+    .fonts{
+        padding-top: 60px;
+        padding-left: 60px;
+        width: 50%;
+    }
+
+    .fonts h2{
+        padding-bottom: 10px;
+    }
+
+      .fonts li{
+        padding-bottom: 10px;
+      }
+
+      .fonts li a{
+        text-decoration: none;
+        font-size: 20px;
+          color:blueviolet;
+      }
+
+   .fonts li a:hover{
+   color:chocolate;
+   }
+        .videos{
+            padding-top:60px;
+            padding-left: 60px;
+            width: 50%;
+        }
+
+        .videos h2{
+            padding-bottom: 10px;
+            padding-left: 20px;
+        }
+
+          .videos li{
+            padding-bottom: 10px;
+          }
+
+          .videos li a{
+            text-decoration: none;
+         font-size: 20px;
+          color:blueviolet;
+      }
+
+      .videos li a:hover{
+        color:chocolate;
+      }
+
+      .website{
+        padding-top:30px;
+        padding-left: 45px;
+        width: 50%;
+      }
+
+      .website h2{
+        padding-bottom: 10px;
+        padding-left: 20px;
+    }
+
+      .website li{
+        padding-bottom: 10px;
+      }
+
+      .website li a{
+        text-decoration: none;
+    font-size: 20px;
+      color:blueviolet;
+  }
+  
+  .videos li a:hover{
+    color:chocolate;
+   
+  }
+    
